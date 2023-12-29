@@ -1,0 +1,31 @@
+#Tic {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+  }
+  
+  #Tic:focus {
+    outline: none;
+    border-color: #4CAF50; /* Green border */
+    box-shadow: 0 0 10px #4CAF50; /* Green glow */
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 210px;
+    margin-left: 20px;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }

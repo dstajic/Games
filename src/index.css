@@ -1,0 +1,118 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+color:rgb(186, 43, 186);
+
+}
+.Title{
+  text-align: center;
+
+}
+/* Style the tab list */
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+/* Style the tabs */
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* Style the active tab */
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: rgb(0, 0, 0);
+  border-radius: 5px 5px 0 0;
+}
+
+/* Style the tab panels */
+.react-tabs__tab-panel {
+  display: none;
+}
+
+/* Style the active tab panel */
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+#coin {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 12px; /* Increased border radius for a more modern look */
+  transition-duration: 0.4s; /* Transition effect */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add shadows for a 3D effect */
+}
+
+#coin:hover {
+  background-color: #45a049; /* Darker green background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+#Tic {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+#Tic:focus {
+  outline: none;
+  border-color: #4CAF50; /* Green border */
+  box-shadow: 0 0 10px #4CAF50; /* Green glow */
+}
+
+.game-board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 210px;
+  margin-left: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.game-area {
+  position: relative;
+  height: 800px;
+  width: 800px;
+  border: 1px solid black;
+}
+
+.dot {
+  position: absolute;
+  height: 2%;
+  width: 2%;
+  background: black;
+}
+.apple {
+  position: absolute;
+  height: 2%;
+  width: 2%;
+  background: red;
+}
